@@ -1,0 +1,8 @@
+//list of enums
+//cannot be created inside the class
+
+enum TextSizes{ small, medium,large}
+
+enum OrderStatus { processing, shipped, delivered}
+
+enum PaymentMethods { paypal, googlePay, applePay, visa, masterCard, creditCard, paystack, razorPay, paytm}
