@@ -1,7 +1,7 @@
+import 'package:ecommerce_t/src/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:ecommerce_t/src/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:widget/src/features/authentication/screens/onboarding.dart';
-import 'package:widget/src/utils/theme/theme.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 class App extends StatefulWidget {
   const App({super.key});
@@ -13,12 +13,13 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
-    return  GetMaterialApp(
+    return GetMaterialApp(
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const OnBoardingScreen(),
-
+      home: const Scaffold(
+        body: OnBoardingScreen(),
+      ),
     );
   }
 }

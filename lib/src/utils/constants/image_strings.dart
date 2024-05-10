@@ -2,13 +2,17 @@
 class TImages {
 
 //app logos
-static const String darkAppLogo = "assets/images/logos/dark_mode.png";
-static const String lightAppLogo = "assets/images/logos/light_mode.png";
+static const String darkAppLogo = "assets/logos/dark_mode.png";
+static const String lightAppLogo = "assets/logos/light_mode.png";
 
 // onboarding page images
-static const String onboardingImage_1= "assets/images/on_boarding_images/onboarding_1.jpeg";
-static const String onboardingImage_2= "assets/images/on_boarding_images/onboarding_2.avif";
-static const String onboardingImage_3= "assets/images/on_boarding_images/onboarding_3.avif";
+static const String onboardingImage_1= "assets/images/on_boarding_images/on_boarding_images_1.png";
+static const String onboardingImage_2= "assets/images/on_boarding_images/on_boarding_images_1.png";
+
+//signup images
+static const String facebookImages= "assets/images/facebook_images.png";
+static const String googleImages= "assets/images/google_images.jpeg";
+
 
 }
 
